@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f3ad5634.css",
+    "main.js": "/portfolio/static/js/main.d535df74.js",
+    "static/media/background_video.mp4": "/portfolio/static/media/background_video.ac3cfc5ca6bc1bd78714.mp4",
+    "static/media/KaarTech.png": "/portfolio/static/media/KaarTech.4cbb58f91f9876d9da3c.png",
+    "static/media/TextToImage.png": "/portfolio/static/media/TextToImage.8e0b5a16cdc4454abc0e.png",
+    "static/media/java.png": "/portfolio/static/media/java.e7d63d42b7de3648f781.png",
+    "static/media/python.png": "/portfolio/static/media/python.348c8fe69dc819f09afb.png",
+    "static/media/twitter.jpg": "/portfolio/static/media/twitter.a4fe45ef040ec8c511e1.jpg",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.e5f42daee7a895262739.png",
+    "static/media/Mock_interview.webp": "/portfolio/static/media/Mock_interview.450fbb02665074e539a7.webp",
+    "static/media/react1.png": "/portfolio/static/media/react1.213fe0c17d0edad40e7d.png",
+    "static/media/SQL.png": "/portfolio/static/media/SQL.eb46f29aacbf3b7b6370.png",
+    "static/media/Postgres.png": "/portfolio/static/media/Postgres.2c5fb5776758d5e66d51.png",
+    "static/media/node.png": "/portfolio/static/media/node.6f4dbac03c6ddc947d1f.png",
+    "static/media/AWS.png": "/portfolio/static/media/AWS.506c41284a2a303fe44f.png",
+    "static/media/Profile_Photo.jpeg": "/portfolio/static/media/Profile_Photo.54799186561a0950d23d.jpeg",
+    "static/media/Postman.png": "/portfolio/static/media/Postman.e10db6a0543f5a365153.png",
+    "static/media/scikit.png": "/portfolio/static/media/scikit.898a737ef12a005c351e.png",
+    "static/media/github.png": "/portfolio/static/media/github.cf54b76c5879fc198189.png",
+    "static/media/clark.png": "/portfolio/static/media/clark.b8173f6bb196ab36f2f9.png",
+    "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/powerbi.png": "/portfolio/static/media/powerbi.6c032fa3fe10392a99c6.png",
+    "static/media/pandas.png": "/portfolio/static/media/pandas.116cd3b2b620c7413d8d.png",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/Bank.avif": "/portfolio/static/media/Bank.42d3104c5aa442a60a44.avif",
+    "index.html": "/portfolio/index.html",
+    "main.f3ad5634.css.map": "/portfolio/static/css/main.f3ad5634.css.map",
+    "main.d535df74.js.map": "/portfolio/static/js/main.d535df74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3ad5634.css",
+    "static/js/main.d535df74.js"
+  ]
+}
