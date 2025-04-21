@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3ad5634.css",
-    "main.js": "/static/js/main.8fa290e1.js",
+    "main.css": "/static/css/main.19fc86a7.css",
+    "main.js": "/static/js/main.6387048a.js",
     "static/media/background_video.mp4": "/static/media/background_video.ac3cfc5ca6bc1bd78714.mp4",
     "static/media/KaarTech.png": "/static/media/KaarTech.4cbb58f91f9876d9da3c.png",
     "static/media/TextToImage.png": "/static/media/TextToImage.8e0b5a16cdc4454abc0e.png",
@@ -26,11 +26,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/Bank.avif": "/static/media/Bank.42d3104c5aa442a60a44.avif",
     "index.html": "/index.html",
-    "main.f3ad5634.css.map": "/static/css/main.f3ad5634.css.map",
-    "main.8fa290e1.js.map": "/static/js/main.8fa290e1.js.map"
+    "main.19fc86a7.css.map": "/static/css/main.19fc86a7.css.map",
+    "main.6387048a.js.map": "/static/js/main.6387048a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3ad5634.css",
-    "static/js/main.8fa290e1.js"
+    "static/css/main.19fc86a7.css",
+    "static/js/main.6387048a.js"
   ]
 }
