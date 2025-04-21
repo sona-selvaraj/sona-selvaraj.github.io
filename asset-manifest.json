@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.19fc86a7.css",
-    "main.js": "/static/js/main.6387048a.js",
+    "main.css": "/static/css/main.159cd5f6.css",
+    "main.js": "/static/js/main.00a61c5a.js",
     "static/media/background_video.mp4": "/static/media/background_video.ac3cfc5ca6bc1bd78714.mp4",
     "static/media/KaarTech.png": "/static/media/KaarTech.4cbb58f91f9876d9da3c.png",
     "static/media/TextToImage.png": "/static/media/TextToImage.8e0b5a16cdc4454abc0e.png",
@@ -19,6 +19,7 @@
     "static/media/Postman.png": "/static/media/Postman.e10db6a0543f5a365153.png",
     "static/media/scikit.png": "/static/media/scikit.898a737ef12a005c351e.png",
     "static/media/github.png": "/static/media/github.cf54b76c5879fc198189.png",
+    "static/media/FlanT.jpg": "/static/media/FlanT.c72c392501c4a0ab0ed1.jpg",
     "static/media/clark.png": "/static/media/clark.b8173f6bb196ab36f2f9.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/powerbi.png": "/static/media/powerbi.6c032fa3fe10392a99c6.png",
@@ -26,11 +27,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/Bank.avif": "/static/media/Bank.42d3104c5aa442a60a44.avif",
     "index.html": "/index.html",
-    "main.19fc86a7.css.map": "/static/css/main.19fc86a7.css.map",
-    "main.6387048a.js.map": "/static/js/main.6387048a.js.map"
+    "main.159cd5f6.css.map": "/static/css/main.159cd5f6.css.map",
+    "main.00a61c5a.js.map": "/static/js/main.00a61c5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.19fc86a7.css",
-    "static/js/main.6387048a.js"
+    "static/css/main.159cd5f6.css",
+    "static/js/main.00a61c5a.js"
   ]
 }
