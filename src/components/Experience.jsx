@@ -1,64 +1,77 @@
-import React from 'react'
-import professional from "../assets/images/professional.jpg"
-import my_photo from "../assets/My_photo.jpeg"
-import kaar from "../assets/Kaar.png"
-import dataEngineering from "../assets/background1.gif"
+import React from "react";
+import kaar from "../assets/KaarTech.png";
+import maitsys from "../assets/maitsys_logo.jpeg";
+import clark from "../assets/clark.png";
 
-import { FaReact } from 'react-icons/fa';
-import { FaPython } from 'react-icons/fa';
-import { SiAmazonaws } from 'react-icons/si';
-import { SiPowerbi } from "react-icons/si";
-import { SiAngular } from 'react-icons/si';
-import { SiApachespark } from 'react-icons/si';
+const Experience = () => {
+  const experiences = [
+    {
+      id: 1,
+      src: kaar,
+      title: "Data Engineer",
+      description: [
+        "Developed a model and forecasting tool to automate predictive modeling tasks, streamlining the process of developing forecasting models resulting in a 20% improvement in sales performance with a focus on customer- obsessed scientific innovation using SAP data.",
+        "Built dashboards using PowerBI for business solutions.",
+        "Worked on multiple portals using React and Angular frameworks.",
+        "AWS Certified Cloud Practitioner.",
+      ],
+      tags: ["#DataEngineer", "#Python", "#AWS", "#React", "#Angular"],
+    },
+    {
+      id: 2,
+      src: clark,
+      title: "Graduate Student",
+      description: [
+        "Investigated the potential of Stable Diffusion, a powerful GAN pipeline, for text-to-image generation tasks.",
+        "Engineered and fine-tuned deep learning models with Tensorflow and Pytorch, achieving a 15% increase in Predictive accuracy",
+        "Explored techniques like data augmentation and fine-tuning to improve model performance, showcasing an understanding of optimization strategies for generative models",
+      ],
+      tags: ["#GraduateStudent", "#MachineLearning", "#AI", "#DataEngineering"],
+    },
+    {
+      id: 3,
+      src: maitsys,
+      title: "Data Analytics Intern",
+      description: [
+        "Applied statistical analysis using methods like t-tests and Chi-square tests to evaluate the effectiveness of marketing campaigns and analyze customer behavior, providing actionable insights for business strategy.",
+        "Enhanced SQL proficiency by working on a Microsoft SQL server data migration project, optimizing ETL processes for efficient data extraction, transformation, and loading.",
+        "Developed interactive Power BI dashboards, improving data visualization and decision-making efficiency by 30%",
+      ],
+      tags: ["#Internship", "#WebDevelopment", "#Teamwork", "#ScalableSolutions"],
+    },
+  ];
 
-function Experience() {
-    return (
-        <div
-            name="experience"
-            className="w-screen h-screen"
-        >
-            <div className="bg-white font-general text-lg max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full bg-gradient bg-from-purple-900 bg-to-purple-700 text-purple-800">
-                <div className="pb-8">
-                    <p className="flex justify-center text-4xl py-8 font-bold text-purple-800 border-b-2 content-center ">
-                        Experience
-                    </p>
-                </div>
-                <div class="flex h-15 bg-white rounded overflow-hidden shadow-lg ">
-                    <img class="py-4 flex justify-center w-fit h-1/2" src={dataEngineering} alt="Sunset in the mountains" />
-                    <br></br>
-                    <br></br>
-                    <div class="px-6 py-4 ">
-                        <div class="font-bold text-xl mb-2">Data Engineer @Digiverz in KaarTech</div>
-                        <br></br>
-                        {/* Designed and developed ETL workflows using Python, SQL, and Apache Spark to process and analyze large volumes of data from various sources, including structured and unstructured data.                  
-                        Implemented machine learning models using Python libraries such as scikit-learn and TensorFlow to solve complex data problems.
-                        I am an AWS Certified cloud practioner.
-                        I have built dashboards using PowerBi for many business solutions.
-                        Worked on multiple portals using React and Angular.
-                        Contributed to the development of internal tools and frameworks to automate data processing tasks and ensure data quality.
-                        Mentored and trained junior data engineers on data processing best practices and new technologies */}
-                        {/* <FontAwesomeIcon icon={FaReact} fade /> */}
-                        <div className="grid grid-cols-2 gap-3">
-                            <div className="flex justify text-lg"><SiPowerbi color="purple" size="3em" class="fa-beat"/><p>&nbsp; &nbsp;PowerBI - Built many powerBI dashboards for business solutions</p>  </div>
-                            <div className="flex justify text-lg"><FaReact color="purple" size='3em' /><p> &nbsp; &nbsp; React - Built a full stack project with react Front-end</p>  </div>
-                            <div className="flex justify text-lg"><FaPython color="purple" size="3em" /><p>&nbsp; &nbsp;Python - I  have worked onEDA funtions to prepare a big data using python </p>  </div>
-                            <div className="flex justify text-lg"><SiAmazonaws color="purple" size="3em" /><p>&nbsp; &nbsp;AWS Cloud Practitioner - I am an AWS certified Cloud Practitioner</p>  </div>
-                            <div className="flex justify text-lg"><SiAngular color="purple" size="3em"/><p>&nbsp; &nbsp;Angular - Built 7 Portals using Angular framework</p>  </div>
-                            <div className="flex justify text-lg"><SiApachespark color="purple" size="3em"/><p></p>&nbsp; &nbsp;Apache Spark - I have used Apache spark for handling big data analysis </div>
-                            {/* <div className="flex justify "><FaBirthdayCake color="blue" /><p> 24FEB 2001</p>  </div> */}
-                        </div>
-                        <div class="px-6 pt-4 pb-2">
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#DataEngineer</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Python</span>
-                            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Developer</span>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
+  return (
+    <div name="experience" className="w-full h-screen bg-white text-black flex items-center justify-center">
+      <div className="max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-5xl font-bold text-center border-b-2 border-gray-400 pb-2">
+            Experience
+          </p>
         </div>
-    )
-}
 
-export default Experience
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
+          {experiences.map(({ id, src, title, description, tags }) => (
+            <div key={id} className="bg-gray-100 shadow-lg rounded-lg p-6 border border-gray-300">
+              <div className="relative mb-4">
+                <img
+                  className="h-32 w-full text-centre object-contain p-4 mx-auto rounded-xl bg-white shadow-md"
+                  src={src}
+                  alt={title}
+                />
+              </div>
+              <h3 className="text-center text-2xl font-bold mb-4 text-gray-800">{title}</h3>
+              <ul className="list-disc list-inside text-gray-600 space-y-2">
+                {description.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Experience;
