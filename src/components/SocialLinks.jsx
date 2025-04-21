@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/sona-selvaraj-73749a194/",
+      href: "https://www.linkedin.com/in/sona-selvaraj/",
       style: "rounded-tr-md",
     },
     {
@@ -22,7 +22,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/sonarocks",
+      href: "https://github.com/sona-selvaraj/",
     },
     {
       id: 3,
@@ -31,7 +31,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:sonaselvaraj@gmail.com",
+      href: "mailto:sonaselvaraj2401@gmail.com",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/public/SonaSelvaraj-resume.pdf",
+      href: "/public/Sona_Selvaraj_SDE.pdf",
       style: "rounded-br-md",
       download: true,
     },
